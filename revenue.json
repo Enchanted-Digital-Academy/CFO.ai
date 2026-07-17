@@ -1,0 +1,26 @@
+[
+  {
+    "month": "January",
+    "revenue": 3200000
+  },
+  {
+    "month": "February",
+    "revenue": 3700000
+  },
+  {
+    "month": "March",
+    "revenue": 4200000
+  },
+  {
+    "month": "April",
+    "revenue": 4600000
+  },
+  {
+    "month": "May",
+    "revenue": 5100000
+  },
+  {
+    "month": "June",
+    "revenue": 4800000
+  }
+]
