@@ -1,0 +1,30 @@
+[
+  {
+    "invoiceNo": "INV-1001",
+    "customer": "Lagos Foods",
+    "country": "Nigeria",
+    "amount": 420000,
+    "status": "Paid"
+  },
+  {
+    "invoiceNo": "INV-1002",
+    "customer": "Accra Digital",
+    "country": "Ghana",
+    "amount": 250000,
+    "status": "Pending"
+  },
+  {
+    "invoiceNo": "INV-1003",
+    "customer": "Safi Tech Ltd",
+    "country": "Kenya",
+    "amount": 780000,
+    "status": "Overdue"
+  },
+  {
+    "invoiceNo": "INV-1004",
+    "customer": "Kigali Ventures",
+    "country": "Rwanda",
+    "amount": 320000,
+    "status": "Paid"
+  }
+]
