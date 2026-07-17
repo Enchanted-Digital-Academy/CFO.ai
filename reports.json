@@ -1,0 +1,22 @@
+[
+  {
+    "report": "Revenue Report",
+    "generated": "2026-07-01",
+    "status": "Ready"
+  },
+  {
+    "report": "Cash Flow Report",
+    "generated": "2026-07-02",
+    "status": "Ready"
+  },
+  {
+    "report": "Expense Report",
+    "generated": "2026-07-03",
+    "status": "Ready"
+  },
+  {
+    "report": "Tax Summary",
+    "generated": "2026-07-05",
+    "status": "Processing"
+  }
+]
