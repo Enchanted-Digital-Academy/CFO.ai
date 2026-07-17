@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Salaries",
+    "amount": 1200000
+  },
+  {
+    "category": "Marketing",
+    "amount": 450000
+  },
+  {
+    "category": "Rent",
+    "amount": 600000
+  },
+  {
+    "category": "Fuel",
+    "amount": 320000
+  },
+  {
+    "category": "Internet",
+    "amount": 110000
+  },
+  {
+    "category": "Utilities",
+    "amount": 180000
+  }
+]
