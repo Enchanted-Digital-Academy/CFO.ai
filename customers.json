@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Safi Tech Ltd",
+    "country": "Kenya",
+    "totalSpent": 870000,
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "name": "Accra Digital",
+    "country": "Ghana",
+    "totalSpent": 1200000,
+    "status": "Active"
+  },
+  {
+    "id": 3,
+    "name": "Kigali Ventures",
+    "country": "Rwanda",
+    "totalSpent": 530000,
+    "status": "Inactive"
+  },
+  {
+    "id": 4,
+    "name": "Lagos Foods",
+    "country": "Nigeria",
+    "totalSpent": 2100000,
+    "status": "VIP"
+  },
+  {
+    "id": 5,
+    "name": "Algiers Trade",
+    "country": "Algeria",
+    "totalSpent": 670000,
+    "status": "Active"
+  },
+  {
+    "id": 6,
+    "name": "Lomé Logistics",
+    "country": "Togo",
+    "totalSpent": 420000,
+    "status": "Pending"
+  }
+]
