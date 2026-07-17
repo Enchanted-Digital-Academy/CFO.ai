@@ -1,0 +1,372 @@
+Product Requirements Document (PRD)
+CFO.ai — AI Financial Co-Pilot for SMEs
+
+Version: 1.0
+Project Type: Frontend MVP (Internship Project)
+Program: EDSIP (Enchanted Digital Academy Student Internship Programme)
+
+1. Project Overview
+Product Name
+
+CFO.ai
+
+Tagline
+
+Your AI Financial Co-Pilot for Smarter Business Decisions.
+
+Product Vision
+
+CFO.ai is an AI-powered financial management dashboard designed to help Small and Medium-sized Enterprises (SMEs) understand the health of their business beyond account balances.
+
+Unlike traditional banking apps that only show transactions, CFO.ai provides intelligent financial insights, business analytics, AI-generated recommendations, and operational reports to help business owners make smarter decisions.
+
+This project is a frontend-only MVP, using mock data to simulate real business operations. It is designed to expose interns to building a modern SaaS application while collaborating as a frontend engineering team.
+
+2. Problem Statement
+
+Most SME banking applications focus on:
+
+Sending money
+Receiving payments
+Viewing balances
+Transaction history
+
+Business owners, however, need answers to questions such as:
+
+Am I making a profit?
+Which customers owe me money?
+Can I afford to hire another employee?
+Why are my expenses increasing?
+Is my business financially healthy?
+What should I focus on today?
+
+These insights often require accountants or multiple software tools.
+
+CFO.ai brings everything together in a single intelligent dashboard.
+
+3. Project Objectives
+
+By the end of the project, the team should build a frontend application that enables users to:
+
+Monitor business performance
+View financial analytics
+Track revenue and expenses
+Monitor invoices
+View customer insights
+Generate business reports
+Receive AI-powered financial recommendations
+Experience a modern SaaS dashboard
+4. Target Users
+Primary Users
+Small Business Owners
+Startup Founders
+Freelancers
+Agencies
+Retail Businesses
+Consultants
+Secondary Users
+Finance Managers
+Operations Managers
+Accountants
+5. Project Scope
+
+This project is frontend only.
+
+The application will use:
+
+Mock JSON data
+Local state management
+Simulated API responses
+
+Backend functionality such as authentication, databases, AI processing, and payment integration will not be implemented during this phase.
+
+6. Core Features
+Authentication
+Login
+Sign Up
+Forgot Password
+Reset Password
+Business Setup Wizard
+Dashboard
+Welcome Banner
+KPI Cards
+AI Daily Brief
+Business Health Score
+Revenue Summary
+Cash Flow Overview
+Outstanding Invoices
+Notifications
+Quick Actions
+AI Advisor
+Chat Interface
+Suggested Prompts
+AI Recommendations
+Business Insights
+Conversation History (Mock)
+Financial Analytics
+Revenue Dashboard
+Expense Dashboard
+Cash Flow
+Profit Trends
+Revenue Growth
+Expense Breakdown
+Customers
+Customer List
+Customer Profile
+Customer Insights
+Customer Activity
+Invoice Management
+Invoice List
+Invoice Details
+Invoice Status
+Invoice Preview
+Reports
+Revenue Report
+Expense Report
+Cash Flow Report
+Profit Report
+Tax Summary
+Notifications
+Business Alerts
+Invoice Reminders
+Payroll Reminders
+Activity Timeline
+Settings
+User Profile
+Business Information
+Theme
+Security
+Preferences
+
+7. Pages
+Login
+Register
+Forgot Password
+Dashboard
+AI Advisor
+Revenue
+Expenses
+Customers
+Customer Details
+Invoices
+Invoice Details
+Reports
+Notifications
+Settings
+Profile
+
+8. Dashboard Overview
+KPI Cards
+Revenue
+Profit
+Cash Available
+Outstanding Invoices
+Business Health Score
+AI Daily Brief
+
+Example:
+
+Good morning, uche.
+
+Yesterday you generated ₦450,000 in revenue.
+
+Profit increased by 8%.
+
+Five invoices remain unpaid.
+
+Inventory levels are running low.
+
+Recommendation:
+Follow up with ABC Ltd today.
+
+Charts
+Revenue Trend
+Cash Flow
+Expense Breakdown
+Profit Growth
+Customer Growth
+Quick Actions
+Create Invoice
+Add Expense
+Generate Report
+View Customers
+9. Tech Stack
+React
+Vite
+TypeScript
+Tailwind CSS
+React Router
+Zustand
+React Hook Form
+Recharts
+Framer Motion
+Mock Service Worker (MSW)
+10. Team Structure
+
+The project will be developed by 5 Frontend Developers, each responsible for a major feature module.
+
+Frontend Developer 1 – Authentication & Core Layout
+Responsibilities
+Authentication
+Login
+Register
+Forgot Password
+Reset Password
+Business Setup Wizard
+Application Layout
+Sidebar
+Top Navigation
+Responsive Navigation
+Footer
+Protected Layout
+Shared Components
+Buttons
+Inputs
+Forms
+Modals
+Loaders
+Empty States
+Error Pages
+Deliverables
+Complete authentication flow
+Responsive application layout
+Shared UI component foundation
+
+
+Frontend Developer 2 – Dashboard & AI Experience
+Responsibilities
+Dashboard
+Welcome Banner
+KPI Cards
+Business Health Score
+AI Daily Brief
+Quick Actions
+Notification Preview
+AI Advisor
+AI Chat Interface
+Suggested Prompts
+AI Responses (Mock)
+Conversation History
+Business Recommendation Cards
+Deliverables
+Interactive dashboard
+AI assistant experience
+Daily business insight components
+
+Frontend Developer 3 – Financial Analytics
+Responsibilities
+Revenue Module
+Revenue Dashboard
+Monthly Revenue
+Revenue by Customer
+Revenue Trends
+Expense Module
+Expense Dashboard
+Expense Categories
+Monthly Spending
+Expense Trends
+Analytics
+Revenue Charts
+Cash Flow Charts
+Expense Pie Charts
+Profit Charts
+Business Health Visualization
+Deliverables
+Financial dashboards
+Interactive charts
+Reusable analytics components
+
+
+Frontend Developer 4 – Customers & Invoices
+Responsibilities
+Customer Management
+Customer List
+Customer Profile
+Customer Insights
+Customer Activity
+Invoice Management
+Invoice Dashboard
+Invoice Table
+Invoice Details
+Invoice Status
+Invoice Preview
+Components
+Tables
+Search
+Filters
+Status Badges
+Pagination
+Deliverables
+Customer management interface
+Invoice management module
+
+
+Frontend Developer 5 – Reports, Notifications & Settings
+Responsibilities
+Reports
+Revenue Report
+Expense Report
+Cash Flow Report
+Profit Report
+Tax Summary
+Notifications
+Activity Feed
+Business Alerts
+Reminder Cards
+Notification Center
+Settings
+User Profile
+Business Information
+Theme Preferences
+Security
+Subscription
+Help & Support
+Deliverables
+Reporting module
+Notification center
+Settings pages
+11. Shared Responsibilities
+
+All frontend developers are expected to:
+
+Follow the approved design system.
+Build reusable and responsive React components.
+Use TypeScript and Tailwind CSS consistently.
+Integrate mock data from JSON.
+Follow Git workflow using feature branches and pull requests.
+Participate in code reviews.
+Write clean, maintainable, and documented code.
+Ensure accessibility and responsive design.
+12. Non-Functional Requirements
+
+The application must be:
+
+Fully responsive (Desktop, Tablet, Mobile)
+Fast and optimized
+Accessible (basic WCAG compliance)
+Consistent in design
+Easy to maintain
+Built with reusable components
+Support Light and Dark Mode
+13. Expected Deliverables
+
+By the end of the internship, the team should deliver:
+
+A fully responsive frontend MVP
+15+ application pages
+30+ reusable UI components
+Interactive dashboards and charts
+Mock AI chat experience
+Complete navigation flow
+Organized GitHub repository with clear commit history
+Project documentation, including setup instructions and component usage
+14. Success Criteria
+
+The project will be considered successful if:
+
+All assigned modules are completed and integrated.
+Navigation between all pages works seamlessly.
+Mock data accurately powers the dashboard and analytics.
+The AI Advisor provides realistic, mock business insights.
+The UI is polished, responsive, and consistent across devices.
+The codebase is modular, reusable, and ready for future backend integration.
