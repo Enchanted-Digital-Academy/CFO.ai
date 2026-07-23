@@ -1,6 +1,19 @@
-const Sidebar = () => {
+type SidebarProps = {
+  isOpen?: boolean;
+};
+
+const Sidebar = ({ isOpen = true }: SidebarProps) => {
   return (
-    <div className="w-64 bg-zinc-900 text-white p-6">
+    <div
+      className={`
+        bg-zinc-900
+        text-white
+        p-6
+        w-64
+        ${isOpen ? "block" : "hidden"}
+        md:block
+      `}
+    >
       <h2 className="text-2xl font-bold text-yellow-400">
         CFO.ai
       </h2>
