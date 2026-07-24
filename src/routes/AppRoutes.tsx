@@ -6,6 +6,10 @@ import Register from "../pages/auth/Register";
 import ForgotPassword from "../pages/auth/ForgotPassword";
 import ResetPassword from "../pages/auth/ResetPassword";
 import BusinessSetup from "../pages/business/BusinessSetup";
+import AIAdvisor from "../pages/AIAdvisor";
+
+// Inside your protected routes, alongside /dashboard:
+<Route path="/ai-advisor" element={<AIAdvisor />} />
 
 const AppRoutes = () => {
   return (

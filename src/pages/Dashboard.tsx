@@ -1,13 +1,26 @@
-const Dashboard = () => {
-  return (
-    <div>
-      <h1 className="text-3xl font-bold">
-        Dashboard Page
-      </h1>
+import { useNavigate } from "react-router-dom";
+import WelcomeBanner from "../components/dashboard/WelcomeBanner";
+import KPICards from "../components/dashboard/KPICards";
+import AIDailyBrief from "../components/dashboard/AIDailyBrief";
+import NotificationPreview from "../components/dashboard/NotificationPreview";
+import BusinessHealthScore from "../components/dashboard/BusinessHealthScore";
+import QuickActions from "../components/dashboard/QuickActions";
 
-      <p className="mt-4">
-        If you can see this, ProtectedLayout is working!
-      </p>
+const Dashboard = () => {
+  const navigate = useNavigate();
+
+  return (
+    <div className="p-8 space-y-8 max-w-[1400px]">
+      <WelcomeBanner />
+      <KPICards />
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="lg:col-span-2">
+          <AIDailyBrief onOpenAdvisor={() => navigate("/ai-advisor")} />
+        </div>
+        <NotificationPreview />
+      </div>
+      <BusinessHealthScore />
+      <QuickActions />
     </div>
   );
 };
