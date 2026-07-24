@@ -20,6 +20,7 @@ const AppRoutes = () => {
       <Route path="/reset-password" element={<ResetPassword />} />
       <Route path="/business-setup" element={<BusinessSetup />} />
       <Route element={<ProtectedLayout />}>
+      <Route path="/ai-advisor" element={<AIAdvisor />} />
       <Route path="/dashboard" element={<Dashboard />} /></Route>
       <Route path="/unauthorized" element={<Unauthorized />} />
 
