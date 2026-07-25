@@ -1,7 +1,7 @@
-import { Routes, Route } from 'react-router-dom';
-import Reports from '../pages/Reports/Reports';
-import Notifications from '../pages/Notifications/Notifications';
-import Settings from '../pages/Settings/Settings';
+import { Routes, Route } from "react-router-dom";
+import Reports from "../pages/Reports/Reports";
+import Notifications from "../pages/Notifications/Notifications";
+import Settings from "../pages/Settings/Settings";
 
 function AppRoutes() {
   return (

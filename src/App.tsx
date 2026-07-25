@@ -1,9 +1,9 @@
-import { BrowserRouter, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import AppRoutes from './routes/AppRoutes';
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <nav className="flex justify-center gap-3 p-4 bg-neutral-900 border-b border-neutral-800">
         <NavLink
           to="/reports"
@@ -40,7 +40,7 @@ function App() {
       <div className="flex justify-center w-full">
         <AppRoutes />
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 
