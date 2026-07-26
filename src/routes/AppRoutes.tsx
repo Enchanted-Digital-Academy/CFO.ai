@@ -6,6 +6,7 @@ import Register from "../pages/auth/Register";
 import ForgotPassword from "../pages/auth/ForgotPassword";
 import ResetPassword from "../pages/auth/ResetPassword";
 import BusinessSetup from "../pages/business/BusinessSetup";
+import AIAdvisor from "../pages/AIAdvisor";
 import NotFound from "../pages/errors/NotFound";
 import Unauthorized from "../pages/errors/Unauthorized";
 
@@ -20,8 +21,9 @@ const AppRoutes = () => {
       <Route path="/reset-password" element={<ResetPassword />} />
       <Route path="/business-setup" element={<BusinessSetup />} />
       <Route element={<ProtectedLayout />}>
-      <Route path="/ai-advisor" element={<AIAdvisor />} />
-      <Route path="/dashboard" element={<Dashboard />} /></Route>
+  <Route path="/ai-advisor" element={<AIAdvisor />} />
+  <Route path="/dashboard" element={<Dashboard />} />
+</Route>
       <Route path="/unauthorized" element={<Unauthorized />} />
 
       <Route path="*" element={<NotFound />} />
